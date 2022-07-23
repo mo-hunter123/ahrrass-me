@@ -2,15 +2,15 @@ import React from 'react'
 import Header from '../components/Header'
 import { ThemeProvider } from '../config/ThemContext'
 
-function about() {
+function tools() {
     return (
         <>
             <ThemeProvider>
                 <Header />
 
                 <main>
-                    <title>About Me</title>
-                    <h1>About Me page</h1>
+                    <title>My tools</title>
+                    <h1>Used tools</h1>
                     <p>
                         Hi My name is Mohamed the creator of this web site
                     </p>
@@ -20,4 +20,4 @@ function about() {
     )
 }
 
-export default about
+export default tools

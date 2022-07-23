@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import ThemeToggle from './ThemeToggle'
 
 const navigation = [
-    { name: 'Home', href: '#', current: 'true' },
+    { name: 'Home', href: '/', current: 'true' },
     { name: 'Blog', href: '/blog', current: 'false' },
     { name: 'About', href: '/about', current: 'false' },
     { name: 'Tools', href: '/tools', current: 'false' },
